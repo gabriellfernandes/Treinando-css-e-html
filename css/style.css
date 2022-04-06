@@ -1,0 +1,84 @@
+body{
+    background-color: #ffffff;
+}
+
+.header{
+    width: 100%;
+    box-shadow: 0.2px 0.2px 0.6px #232333;
+    background-color: #fff;
+}
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.conteiner img{
+    width: 120px;
+    height: 40px;
+}
+
+.conteiner .ul{
+    display: flex;
+    margin-left: 80px;
+}
+.conteiner .item .ul li{
+    padding: 0px 20px;
+}
+.conteiner .item .ul li a{
+    text-decoration: none;
+    font-weight: normal;
+    color: #0096c7;
+    font-size: 12px;
+}
+.conteiner .item .ul li .la:hover{
+    border-bottom: 1px solid #0096c7;
+}
+
+.conteiner .item ul details{
+    margin-top: 3px;
+    position: absolute;
+    font-size: 14px;
+}
+
+.conteiner .item .ul details .ul2 li{
+    margin-top: 10px;
+}
+
+.conteiner .item .ul li details summary .li{
+    font-weight: normal;
+    color: #0096c7;
+    font-size: 12px;
+}
+.conteiner .item .ul li details summary .li:hover{
+    border-bottom: 1px solid #0096c7;
+    cursor: pointer;
+}
+
+.conteiner .item .ul li details[open] :not(li){
+    margin-bottom: 45px;
+    transition: 0.1s;
+}
+.conteiner .item .ul li details[open] :not(summary,.li,li,a){
+    transition: 0.1s;
+    box-shadow: 1px 1px 10px #cccccc;
+    padding: 8px 2px;
+
+}
+.conteiner .item .ul li details[open] li{
+    padding: 6px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.conteiner .item .ul li details[open] li:hover{
+    background-color: #cccccc;
+}
+
+
+.conteiner .item .ul li details summary::marker {
+    color: #0096c7;
+    background-color: #000;
+}
+
