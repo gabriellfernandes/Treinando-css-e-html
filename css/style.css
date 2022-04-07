@@ -18,8 +18,7 @@ body{
         flex-wrap: nowrap;
     }
     .conteiner img{
-        width: 90px;
-        height: 30px;
+        height: 150px;
     }
 
     .conteiner .ul{
@@ -126,6 +125,9 @@ body{
         font-weight: 400;
     }
 
+    .conteiner2 .text{
+        font-weight: bold;
+    }
     .conteiner2 .p{
         padding: 0px 5px;
         padding-top: 15px;
