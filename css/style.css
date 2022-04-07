@@ -163,6 +163,7 @@ body{
     
     .conteiner2 .button:hover{
         filter: brightness(115%);
+        transition: 0.4s;
     }
 
     .conteiner2 .p2{
@@ -212,6 +213,7 @@ body{
         padding: 0px 5px;
         color: rgba(4, 4, 19, 0.56);
     }
+    
     .conteiner3 .nav .ul .li .span:hover{
         cursor: pointer;
     }
